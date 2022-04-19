@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+/* @import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff'); */
+
+.nanummyeongjo *,.nanummyeongjo {
+  font-family: 'Noto Serif KR', serif;
+	-webkit-font-smoothing: antialiased;
+    letter-spacing: -0.02em;
+}
+.marcellus *,.marcellus {
+  font-family: 'Marcellus','Noto Sans KR', sans-serif;
+}
+/* @font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+/* font-family: 'Marcellus', serif; */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html, body{
+	font:300 16px/1.3 'Noto Sans KR', sans-serif;
+	color: #333;
+    overflow-x: hidden !important;
+}
+body.open{width:100%; height:100%; overflow: hidden;}
+body *{box-sizing: border-box; word-break: keep-all;}
+a:visited, a:link{color: inherit; text-decoration: none;}
+hr{border:0; margin:0; width:100%; height:1px; background: #fff;}
+button{font-family: inherit;}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+  background-color: #eee;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: #226610;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+input{
+  /*ios대응*/
+  appearance: none;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+select{
+  /*ios대응*/
+  -webkit-appearance: none;
+  -moz-appearance: none; 
+  appearance: none;
+
+  /*화살표 배경 넣기*/
+  background: url('../img/select-down-arrow.svg') no-repeat 93% 50% rgba(255, 255, 255, 0); background-size:12px;/*화살표 select박스 오른쪽 중앙 배치,배경 흰색*/
+}
+select::-ms-expand{ 
+  display:none; /* 화살표 없애기 for IE10, 11*/
+}
+a { -webkit-tap-highlight-color:transparent;}
+* {-webkit-tap-highlight-color:transparent;}
+
+.skip-navigation {position: relative;}
+.skip-navigation a {position: absolute; top: -200px; left: 0; border: 1px solid #fff; color: #fff; background: #333; line-height: 30px; width: 160px; text-align: center; text-decoration: none;}
+.skip-navigation a:active, .skip-navigation a:focus {top: 0;}
+img{max-width: 100%; vertical-align: top;}
+.ir_text{display: block; width: 100%; height: 100%; text-indent: -9999em;}
+.over_hidden{overflow: hidden;}
+.p_r{position: relative;}
+.z1{z-index: 1;}
+.pc-text{display: inline-block;}
+
+.pc-content{display: block;}
+img.pc-content{display: inline-block;}
+.mobile-content{display: none;}
+
+/* font-size */   
+.h1{font-size:2.813rem; line-height: 1.4;}
+.h2{font-size:2.5rem; line-height: 1.4;}
+.h3{font-size:2.25rem; line-height: 1.4;}
+.h4{font-size:1.875rem; line-height: 1.4;}
+.h5{font-size:1.563rem; line-height: 1.4;}
+.h6{font-size:1.5rem; line-height: 1.4;}
+
+/* .fz_14{font-size: 14px;}
+.fz_15{font-size: 0.938rem;}
+.fz_17{font-size: 1.063rem; line-height: 1.6}
+.fz_18{font-size: 1.125rem; line-height: 1.6}
+.fz_19{font-size: 1.188rem; line-height: 1.6;}
+.fz_20{font-size: 1.250rem; line-height: 1.6;} */
+.fz_15{font-size:1rem; line-height: 1.5;}
+.fz_16{font-size:1.063rem; line-height: 1.5;}
+.fz_17{font-size:1.125rem; line-height: 1.5;}
+.fz_18{font-size:1.188rem; line-height: 1.5;}
+.fz_19{font-size:1.250rem; line-height: 1.5;}
+.fz_20{font-size:1.313rem; line-height: 1.5;}
+.fz_21{font-size:1.375rem; line-height: 1.5;}
+.fz_22{font-size:1.438rem; line-height: 1.5;}
+.fz_23{font-size:1.5rem; line-height: 1.5;}
+.fz_24{font-size:1.625rem; line-height: 1.5;}
+.fz_26{font-size:1.75rem; line-height: 1.5;}
+.fz_28{font-size:1.875rem; line-height: 1.5;}
+.fz_30{font-size:2rem; line-height: 1.5;}
+.fz_32{font-size:2.188rem; line-height: 1.5;}
+.fz_35{font-size:2.375rem; line-height: 1.4;}
+.fz_38{font-size:2.625rem; line-height: 1.4;}
+.fz_42{font-size:2.75rem; line-height: 1.4;}
+.fz_44{font-size:3rem; line-height: 1.4;}
+.fz_48{font-size:3.375em; line-height: 1.4;}
+.fz_50{font-size:3.75rem; line-height: 1.4;}
+.fz_70{font-size:4.375rem; line-height: 1.4;}
+.fz_100{font-size:6.25rem; line-height: 1.4;}
+
+/* text */
+.ta_c{text-align: center;}
+.ta_l{text-align: left;}
+.ta_r{text-align: right;}
+
+.light{font-weight: 300;}
+.normal{font-weight: 400;}
+.medium{font-weight: 500;}
+.bold{font-weight: 700;}
+.ex_bold{font-weight: 900;}
+
+/* color */
+.c_fff{color: #fff;}
+.c_blk{color: #000;}
+.c_blk_light{color: #303030;}
+.c_green{color: #6dc571;}
+.c_green_dark{color: #226610;}
+.g-market-font{font-family: 'GmarketSansBold';}
+.c_grey{color: #939393;}
+
+.lh_15{line-height: 1.5;}
+.lh_16{line-height: 1.6;}
+.lh_18{line-height: 1.8;}
+
+.ls_20{letter-spacing: -0.02em;}
+.ls_30{letter-spacing: -0.03em;}
+.ls_50{letter-spacing: -0.05em;}
+
+/* margin-bottom */
+.m_5{margin-bottom: 5px;}
+.m_10{margin-bottom: 10px;}
+.m_20{margin-bottom: 20px;}
+.m_30{margin-bottom: 30px;}
+.m_40{margin-bottom: 40px;}
+.m_50{margin-bottom: 50px;}
+.m_60{margin-bottom: 60px;}
+.m_80{margin-bottom: 80px;}
+.m_100{margin-bottom: 100px;}
+.m_200{margin-bottom: 200px;}
+
+/* padding */
+.pd_60{padding: 60px 0;}
+.pd_80{padding: 80px 0;}
+.pd_100{padding: 100px 0;}
+.pd_120{padding: 120px 0;}
+.pd_160{padding: 160px 0;}
+.pd_200{padding: 200px 0;}
+/* padding-top */
+.pt_80{padding-top: 80px;}
+.pt_100{padding-top: 100px;}
+.pt_160{padding-top: 160px;}
+.pt_200{padding-top: 200px;}
+.pt_210{padding-top: 210px;}
+.pt_230{padding-top: 230px;}
+.pt_250{padding-top: 250px;}
+
+.ml_10{margin-left: 10px;}
+.ml_20{margin-left: 20px;}
+.ml_30{margin-left: 30px;}
+.ml_40{margin-left: 40px;}
+
+.m_auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.mx300{max-width: 300px;}
+.mx400{max-width: 400px;}
+.mx500{max-width: 500px;}
+.mx520{max-width: 520px;}
+.mx540{max-width: 540px;}
+.mx550{max-width: 550px;}
+.mx570{max-width: 570px;}
+
+
+/* flex-box */
+.flex_row{display: flex; }
+.flex_row.fw{flex-wrap:wrap; }
+.flex_row.center{display: flex; align-items: center;}
+.flex_row.jc_center{justify-content: center;}
+.flex_row.jc_fs{justify-content: flex-start;}
+.flex_row.jc_fe{justify-content: flex-end;}
+.flex_row.sb{justify-content:space-between;}
+.flex_row.sa{justify-content:space-around;}
+.flex_row.se{justify-content:space-evenly;}
+.flex_row.column{flex-direction: column;}
+
+.column_half{width: 50%;}
+.column_quarter{width: 25%;}
+
+/* container */
+.container.sm900{max-width: 900px;padding-top: 140px;padding-bottom: 50px; margin: 0 auto;}
+.container.sm1000{max-width: 1000px;padding-top: 140px;padding-bottom: 50px; margin: 0 auto;}
+.container.sm1100{max-width: 1100px;padding-top: 140px;padding-bottom: 50px; margin: 0 auto;}
+.container.sm1200{max-width: 1200px;padding-top: 140px;padding-bottom: 50px; margin: 0 auto;}
+.container.md{max-width: 1300px;padding-top: 140px;padding-bottom: 50px; margin: 0 auto;}
+.container.md1500{max-width: 1500px; margin: 0 auto;}
+.container.md1920{max-width: 1920px;padding-top: 140px;padding-bottom: 50px; }
