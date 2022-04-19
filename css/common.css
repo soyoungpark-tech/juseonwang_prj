@@ -24,6 +24,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Nanum';
+  src: url(/fonts/NanumGothic.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* font-family: 'Marcellus', serif; */
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -269,10 +275,10 @@ img.pc-content{display: inline-block;}
 .column_quarter{width: 25%;}
 
 /* container */
-.container.sm900{max-width: 900px;padding-top: 140px;padding-bottom: 50px; margin: 0 auto;}
+/* .container.sm900{max-width: 900px;padding-top: 140px;padding-bottom: 50px; margin: 0 auto;}
 .container.sm1000{max-width: 1000px;padding-top: 140px;padding-bottom: 50px; margin: 0 auto;}
 .container.sm1100{max-width: 1100px;padding-top: 140px;padding-bottom: 50px; margin: 0 auto;}
 .container.sm1200{max-width: 1200px;padding-top: 140px;padding-bottom: 50px; margin: 0 auto;}
 .container.md{max-width: 1300px;padding-top: 140px;padding-bottom: 50px; margin: 0 auto;}
 .container.md1500{max-width: 1500px; margin: 0 auto;}
-.container.md1920{max-width: 1920px;padding-top: 140px;padding-bottom: 50px; }
+.container.md1920{max-width: 1920px;padding-top: 140px;padding-bottom: 50px; } */
