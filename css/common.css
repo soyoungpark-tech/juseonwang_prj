@@ -105,7 +105,7 @@ button{font-family: inherit;}
 }
  
 ::-webkit-scrollbar-thumb {
-  background-color: #226610;
+  background-color: #fe9727;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -200,10 +200,11 @@ img.pc-content{display: inline-block;}
 .c_fff{color: #fff;}
 .c_blk{color: #000;}
 .c_blk_light{color: #303030;}
-.c_green{color: #6dc571;}
-.c_green_dark{color: #226610;}
-.g-market-font{font-family: 'GmarketSansBold';}
+.c_orange{color: #fe9727;}
 .c_grey{color: #939393;}
+/* background color */
+.bg_fff{background: #fff;}
+.bg_orange{background: #fe9727;}
 
 .lh_15{line-height: 1.5;}
 .lh_16{line-height: 1.6;}
@@ -230,6 +231,7 @@ img.pc-content{display: inline-block;}
 .pd_80{padding: 80px 0;}
 .pd_100{padding: 100px 0;}
 .pd_120{padding: 120px 0;}
+.pd_150{padding: 150px 0;}
 .pd_160{padding: 160px 0;}
 .pd_200{padding: 200px 0;}
 /* padding-top */
@@ -240,6 +242,9 @@ img.pc-content{display: inline-block;}
 .pt_210{padding-top: 210px;}
 .pt_230{padding-top: 230px;}
 .pt_250{padding-top: 250px;}
+/* button padding */
+.bt_p_50{padding: 50px;}
+.bt_p_70{padding: 70px;}
 
 .ml_10{margin-left: 10px;}
 .ml_20{margin-left: 20px;}
