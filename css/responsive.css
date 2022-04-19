@@ -228,3 +228,18 @@ body{
 @media (orientation: portrait) {
 
 }
+
+
+/* -------------------------- */
+@media all and (max-width:981px) {}
+
+@media all and (max-width:768px) {}
+
+@media all and (max-width:640px) {}
+
+/* ------------ */
+@media screen and (max-width: 767px) {
+    #header .product_wrap .list_product li {
+        width: calc(50%);
+    }
+}

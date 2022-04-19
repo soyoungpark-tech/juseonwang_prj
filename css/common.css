@@ -4,13 +4,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
 
-/* @import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff'); */
-
-.nanummyeongjo *,.nanummyeongjo {
+/* .nanummyeongjo *,.nanummyeongjo {
   font-family: 'Noto Serif KR', serif;
 	-webkit-font-smoothing: antialiased;
     letter-spacing: -0.02em;
-}
+} */
 .marcellus *,.marcellus {
   font-family: 'Marcellus','Noto Sans KR', sans-serif;
 }
@@ -20,6 +18,12 @@
   font-weight: normal;
   font-style: normal;
 } */
+@font-face {
+  font-family: 'Dohyeon';
+  src: url(/fonts/BMDOHYEON_ttf.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* font-family: 'Marcellus', serif; */
 /* http://meyerweb.com/eric/tools/css/reset/ 
