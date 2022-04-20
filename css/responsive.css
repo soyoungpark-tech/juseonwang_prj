@@ -61,7 +61,8 @@
 }
 @media (max-width:800px) {
   html, body{
-    font-size:14px;
+    /* font-size:14px; */
+    font-size: 1rem;
   }
   /* margin-bottom */
   .m_5{margin-bottom: 5px;}
