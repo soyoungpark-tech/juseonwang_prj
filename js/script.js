@@ -39,6 +39,24 @@ $(document).ready(function() {
 //         return false;
 //     }
 // }
+// 종교 체크박스
+// function count_ckRe(obj){
+//     var chkboxRe = document.getElementsByName("religion");
+//     var chkCntAl = 0;
+
+//     for(var i=0;i<chkboxRe.length; i++){
+//         if(chkboxRe[i].checked){
+//             chkCntAl++;
+//         }
+//     }
+//     if(chkCntAl>1){
+//         alert("check NO");
+//         obj.checked = false;
+//         return false;
+//     }
+// }
+
+
 
 // 체형 체크박스 -input radio 기능추가
 function count_ck(element) {

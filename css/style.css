@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /* common layout */
-.desktop{max-width: 700px; margin: 0 auto;background: #393636ff;padding: 20px;height: 100vh;}
+.desktop{max-width: 700px; margin: 0 auto;background: #393636ff;padding: 20px;height: auto;}
 /* .desktop .secbox {padding: 70px 40px 50px;} */
 .desktop .secbox {margin: 40px 20px;}
 
@@ -62,6 +62,7 @@
  #ck_btn label input {
      position:absolute;
      top:-20px;
+     display: none;
  }
  
  #ck_btn input:checked + span {
