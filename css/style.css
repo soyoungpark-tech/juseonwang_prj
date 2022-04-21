@@ -21,24 +21,13 @@
 .terms_box {background: #eee;padding: 25px 30px;border-radius: 25px;line-height: 1.6rem;}
 
 /* section 03 -profile */
-div label input {
-    margin-right:100px;
- }
- body {
-     font-family:sans-serif;
- }
- 
+.profile tr {display: flex;flex-direction: column;}
+.profile tr td input {border-radius: 10px;padding: 10px;font-family: 'Nanum';}
+.profile tr th {margin: 10px 0;color: #fff;}
+
+
  #ck_btn {
-     margin:4px;
-     background-color:#EFEFEF;
-     border-radius:4px;
-     border:1px solid #D0D0D0;
-     overflow:auto;
-     float:left;
- }
- 
- #ck_btn {
-     margin:4px;
+     margin:10px;
      background-color:#EFEFEF;
      border-radius:4px;
      border:1px solid #D0D0D0;
@@ -47,19 +36,22 @@ div label input {
  }
  
  #ck_btn:hover {
-     margin:4px;
+     /* margin:4px; */
      background-color:#EFEFEF;
      border-radius:4px;
-     border:1px solid red;
+     border:1px solid #fe9727;
      overflow:auto;
      float:left;
-     color:red;
  }
  
  #ck_btn label {
-     float:left;
-     width:4.0em;
- }
+    float: left;
+    width: 125px;
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    line-height: 39px;
+    }
  
  #ck_btn label span {
      text-align:center;
@@ -73,6 +65,6 @@ div label input {
  }
  
  #ck_btn input:checked + span {
-     background-color:#911;
-     color:#fff;
+     background-color:#fe9727;
+     /* color:#fff; */
  }

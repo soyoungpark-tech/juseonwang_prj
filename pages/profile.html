@@ -32,6 +32,7 @@
         <div class="tit_greet">
             <p>
                 <span class="c_orange">프로필 등록 (1/4)</span>
+                <br>
                 회원가입을 하면 주선왕 매칭 서비스를 무료로 체험해볼 수 있어요.<br class="pc-content">
                 정보는 모두 비밀유지 되니, 안심하세요.
             </p>
@@ -43,63 +44,106 @@
                         <tbody>
                             <tr>
                                 <th><label for="">이름</label></th>
-                                <td><input type="text" name="username" value="이름을 입력하세요"></td>
+                                <td><input type="text" name="username" placeholder="이름을 입력하세요"></td>
                             </tr>
                             <tr>
                                 <th><label for="">회원님의 키는?</label></th>
                                 <td><input type="text" name="userheight" placeholder="cm"></td>
                             </tr>
-                            <tr>
+                            <tr class="shape_form">
                                 <th><label for="">회원님의 체형은?</label></th>
-                                <td>
+                                <td class="font_nanum ex_bold">
                                     <div id="ck_btn">
                                         <label>
-                                            <input type="checkbox" name="shape" value="slim"><span>슬림</span>
+                                            <input type="checkbox" name="shape" onClick="count_ck(this);" value="slim"><span>슬림</span>
                                         </label>
                                     </div>
                                     <div id="ck_btn">
                                         <label>
-                                            <input type="checkbox" name="shape" value="average"><span>보통</span>
+                                            <input type="checkbox" name="shape" onClick="count_ck(this);" value="average"><span>보통</span>
                                         </label>
                                     </div>
                                     <div id="ck_btn">
                                         <label>
-                                            <input type="checkbox" name="shape" value="chubby"><span>통통한</span>
+                                            <input type="checkbox" name="shape" onClick="count_ck(this);" value="chubby"><span>통통한</span>
                                         </label>
                                     </div>
                                     <div id="ck_btn">
                                         <label>
-                                            <input type="checkbox" name="shape" value="curvy"><span>(여)볼륨있는</span>
+                                            <input type="checkbox" name="shape" onClick="count_ck(this);" value="curvy"><span>(여)볼륨있는</span>
                                         </label>
                                     </div>
                                     <div id="ck_btn">
                                         <label>
-                                            <input type="checkbox" name="shape" value="voluptuous"><span>(여)글래머한</span>
+                                            <input type="checkbox" name="shape" onClick="count_ck(this);" value="voluptuous"><span>(여)글래머한</span>
                                         </label>
                                     </div>
                                     <div id="ck_btn">
                                         <label>
-                                            <input type="checkbox" name="shape" value="fit"><span>(남)근육질</span>
+                                            <input type="checkbox" name="shape" onClick="count_ck(this);" value="fit"><span>(남)근육질</span>
                                         </label>
                                     </div>
                                     <div id="ck_btn">
                                         <label>
-                                            <input type="checkbox" name="shape" value="bulky"><span>(남)건장한</span>
+                                            <input type="checkbox" name="shape" onClick="count_ck(this);" value="bulky"><span>(남)건장한</span>
                                         </label>
                                     </div>
                                 </td>
-                                <!-- <script>
-                                    $(document).ready(function({
-                                        $("input[type='checkbox']").on("click",function(){
-                                            let count=$("input:checked[type='checkbox']").length;
-
-                                            if(count>3){
-                                                $(this).prop("checked",false);
-                                                alert("3개까지만 선택할 수 있습니다.")
-                                            }
-                                        });
-                                    })
-                                </script> -->
+                            </tr>
+                            <tr class="alcohol_form">
+                                <th><label for="">주량이 어떻게 되시나요?</label></th>
+                                <td class="font_nanum ex_bold">
+                                    <div id="ck_btn">
+                                        <label>
+                                            <input type="checkbox" name="alcohol" onClick="count_ckAl(this);" value="none"><span>마시지 않음</span>
+                                        </label>
+                                    </div>
+                                    <div id="ck_btn">
+                                        <label>
+                                            <input type="checkbox" name="alcohol" onClick="count_ckAl(this);" value="sometimes"><span>가끔 마심</span>
+                                        </label>
+                                    </div>
+                                    <div id="ck_btn">
+                                        <label>
+                                            <input type="checkbox" name="alcohol" onClick="count_ckAl(this);" value="often"><span>어느정도 즐김</span>
+                                        </label>
+                                    </div>
+                                    <div id="ck_btn">
+                                        <label>
+                                            <input type="checkbox" name="alcohol" onClick="count_ckAl(this);" value="like"><span>좋아해요</span>
+                                        </label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="religion_form">
+                                <th><label for="">현재 믿고 있는 종교가 있나요?</label></th>
+                                <td class="font_nanum ex_bold">
+                                    <div id="ck_btn">
+                                        <label>
+                                            <input type="checkbox" name="religion" onClick="count_ckRe(this);" value="none"><span>무교</span>
+                                        </label>
+                                    </div>
+                                    <div id="ck_btn">
+                                        <label>
+                                            <input type="checkbox" name="religion" onClick="count_ckRe(this);" value="christian"><span>기독교</span>
+                                        </label>
+                                    </div>
+                                    <div id="ck_btn">
+                                        <label>
+                                            <input type="checkbox" name="religion" onClick="count_ckRe(this);" value="buddhism"><span>불교</span>
+                                        </label>
+                                    </div>
+                                    <div id="ck_btn">
+                                        <label>
+                                            <input type="checkbox" name="religion" onClick="count_ckRe(this);" value="catholic"><span>천주교</span>
+                                        </label>
+                                    </div>
+                                    <div id="ck_btn">
+                                        <label>
+                                            <input type="checkbox" name="religion" onClick="count_ckRe(this);" value="another"><span>기타</span>
+                                        </label>
+                                    </div>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -107,7 +151,7 @@
             </form>
         </div>
         <div>
-            <button class="btn_next" id="btn_next" type="button" onclick="location.href='/pages/profile.html'">해당합니다.</button>
+            <button class="btn_next" id="btn_next" type="button" onclick="location.href='/pages/profile.html'">다음</button>
         </div>
     </div>
 </div>
