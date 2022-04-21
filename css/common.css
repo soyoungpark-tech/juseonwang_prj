@@ -124,12 +124,16 @@ img.pc-content{display: inline-block;}
 .bold{font-weight: 700;}
 .ex_bold{font-weight: 900;}
 
+.font_dohyun {font-family: 'Dohyun';}
+.font_nanum {font-family: 'Nanum';}
+
 /* color */
 .c_fff{color: #fff;}
 .c_blk{color: #000;}
 .c_blk_light{color: #303030;}
 .c_orange{color: #fe9727;}
 .c_grey{color: #939393;}
+
 /* background color */
 .bg_fff{background: #fff;}
 .bg_orange{background: #fe9727;}
