@@ -1,72 +1,79 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
-<meta name="format-detection" content="telephone=no">
-<!-- <meta name="viewport" content="viewport-fit=cover"> -->
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-<link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport"
+        content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <meta name="format-detection" content="telephone=no">
+    <!-- <meta name="viewport" content="viewport-fit=cover"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js" ></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
-<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" ></script>
-<title>Juseonwang_prj_soyoung</title>
-<link rel="apple-touch-icon" href="이미지경로.png" />
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <title>Juseonwang_prj_soyoung</title>
+    <link rel="apple-touch-icon" href="이미지경로.png" />
     <script type="text/javascript">
-    // 주소창 자동 닫힘
-    window.addEventListener("load", function(){
-    setTimeout(loaded, 100);
+        // 주소창 자동 닫힘
+        window.addEventListener("load", function () {
+            setTimeout(loaded, 100);
 
-    }, false);
+        }, false);
 
-    function loaded(){
-    window.scrollTo(0, 1);
-    }
+        function loaded() {
+            window.scrollTo(0, 1);
+        }
     //
     </script>
-<link rel="stylesheet" href="../css/common.css">
-<link rel="stylesheet" href="../css/style.css">
-<link rel="stylesheet" href="../css/responsive.css">
-<script src="../js/script.js"></script>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <script src="../js/script.js"></script>
 </head>
+
 <body>
 
-<div class="desktop">
-    <div class="sec05_regist_photo secbox">
-        <div class="tit_greet">
-            <p>
-                <span class="c_orange">프로필 사진 등록 (3/4)</span>
-                <br>
-                얼굴이 잘 드러난 사진을 등록해주세요.
-            </p>
-        </div>
-        <div class="regist_photo ta_l c_blk">
-            <div class="container-fluid">
-                <!-- <h3>Sort Files before upload</h3> -->
-                <div class="col-md-6">
-                   
-                    <div class="form-group">
-                        <label>Select Images</label>
-                        <input type="file" name="upload" multiple="multiple" class="form-control user_picked_files" />                 
-                    </div>                     
-                   
-                    <!-- <div class="form-group cvf_order">                           
+    <div class="desktop">
+        <div class="sec05_regist_photo secbox">
+            <div class="tit_greet">
+                <p>
+                    <span class="c_orange">프로필 사진 등록 (3/4)</span>
+                    <br>
+                    얼굴이 잘 드러난 사진을 등록해주세요.
+                </p>
+            </div>
+            <div class="regist_photo ta_l c_blk">
+                <div class="container-fluid">
+                    <!-- <h3>Sort Files before upload</h3> -->
+                    <div class="col-md-6">
+
+                        <div class="form-group">
+                            <!-- <label>Select Images</label> -->
+                            <input type="file" name="upload" multiple="multiple"
+                                class="form-control user_picked_files" />
+                        </div>
+
+                        <!-- <div class="form-group cvf_order">                           
                         <label>Order</label>                               
                         <input type="text" class="form-control cvf_hidden_field" value="" disabled="disabled" />   
                     </div>                      -->
-                   
-                    <!-- <input type="submit" class="cvf_upload_btn btn btn-primary" value="Upload" /> -->
-                   
-                    <ul class="cvf_uploaded_files"></ul>
+
+                        <!-- <input type="submit" class="cvf_upload_btn btn btn-primary" value="Upload" /> -->
+
+                        <ul class="cvf_uploaded_files"></ul>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="btn_next_box photo">
-            <button class="btn_next" id="btn_next" type="button" onclick="location.href='/juseonwang_prj/pages/regist_photo.html'">다음</button>
+            <div class="btn_next_box photo">
+                <button class="btn_next" id="btn_next" type="button"
+                    onclick="location.href='/juseonwang_prj/pages/regist_photo.html'">다음</button>
+            </div>
         </div>
     </div>
-</div>
 
 </body>
+
 </html>

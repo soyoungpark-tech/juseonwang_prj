@@ -115,6 +115,9 @@ body{
 @media (max-width:566px) {
 }
 @media (max-width:522px) {
+  /* section 05 -regist-photo */
+  ul.cvf_uploaded_files li {margin: 10px;padding: 5px;width: 100px; height: 100px;}
+  ul.cvf_uploaded_files li img.img-thumb {width: 100px; height: 100px;padding-bottom: 11px;}
 }
 @media (min-width:435px) and (max-width:460px) {
 
@@ -159,6 +162,21 @@ body{
 
   /* section 02-registration */
   .sec02_terms {font-size: 1.1rem;height: auto;}
+
+  /* section 03 -profile */
+  .sec03_profile {font-size: 1.1rem;}
+  #ck_btn label {height: 41px;line-height: 35px;}
+  #ck_btn label span {font-size: .9rem;padding: 3px 15px;}
+
+  /* section 04 -interview */
+  .sec04_interview {font-size: 1.1rem;}
+  .interview tr {margin-bottom: 15px;}
+  .interview tr th {margin: 15px 0 5px 0;}
+  
+  /* section 05 -regist-photo */
+  .sec05_regist_photo {font-size: 1.1rem;}
+  /* ul.cvf_uploaded_files li {margin: 10px;padding: 5px;width: 100px; height: 100px;} */
+  
 
   /* .fz_17{font-size: 16px;}
 
