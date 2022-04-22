@@ -16,7 +16,17 @@
 
 
 /* section 01 */
-.choose_gender ul li button {border-radius: 30px;}
+.choose_gender ul li button {
+    display: block;
+    background: #eee;
+    color: #000;
+    border-bottom: none;
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 6px;
+    padding: 50px;
+}
 
 /* section 02 -Requirement */
 .terms_box {background: #eee;padding: 25px 30px;border-radius: 25px;line-height: 1.6rem;}
