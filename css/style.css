@@ -16,6 +16,7 @@
 
 
 /* section 01 */
+.sec01_gender {height: 100vh;}
 .choose_gender ul li button {
     display: block;
     background: #eee;
@@ -29,6 +30,7 @@
 }
 
 /* section 02 -Requirement */
+.sec02_terms {height: 100vh;}
 .terms_box {background: #eee;padding: 25px 30px;border-radius: 25px;line-height: 1.6rem;}
 
 /* section 03 -profile */
@@ -93,7 +95,7 @@
     font-size: 16px;
 }
 
-/* section 05 -interview */
+/* section 04 -interview */
 .interview table {width: 100%;font-family: 'Nanum';}
 .interview tr {display: flex;flex-direction: column;}
 .interview tr th {
@@ -126,6 +128,7 @@
 }
 
 /* section 05-regist photo */
+.sec05_regist_photo { height: 100vh; }
 .btn_next_box.photo .btn_next {margin-top: 250px;}
 
 ul.cvf_uploaded_files {list-style-type: none; margin: 20px 0 0 0; padding: 0;}
