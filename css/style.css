@@ -10,6 +10,7 @@
 .font_nanum {font-family: 'Nanum';}
 
 /* button style */
+.btn_next_box {margin: 20px 0;}
 .btn_next {display: block;background: #eee;color: #000;border-bottom: none;text-align: center;width: 100%;margin: 10px 0;border-radius: 6px;padding: 22.5px;}
 .btn_next:hover {background: #fe9727;transition: all .2s;}
 
@@ -24,7 +25,6 @@
 .profile tr {display: flex;flex-direction: column;}
 .profile tr td input {border-radius: 10px;padding: 10px;font-family: 'Nanum';}
 .profile tr th {margin: 10px 0;color: #fff;}
-
 
  #ck_btn {
      margin:10px;
@@ -46,7 +46,7 @@
  
  #ck_btn label {
     float: left;
-    width: 125px;
+    width: auto;
     height: 45px;
     text-align: center;
     align-items: center;
@@ -55,7 +55,7 @@
  
  #ck_btn label span {
      text-align:center;
-     padding:3px 0px;
+     padding:3px 20px;
      display:block;
  }
  
@@ -67,5 +67,61 @@
  
  #ck_btn input:checked + span {
      background-color:#fe9727;
-     /* color:#fff; */
- }
+    padding: 3px 20px;
+    }
+.profile tr td textarea {
+    background-color:#EFEFEF;
+    border-radius:4px;
+    border:1px solid #D0D0D0;
+    overflow:auto;
+    float:left;
+    white-space: pre-wrap;
+    resize: none;
+    width: 100%;
+    font-family: 'Nanum';
+    padding: 5px;
+    font-size: 16px;
+}
+
+/* section 05 -interview */
+.interview table {width: 100%;font-family: 'Nanum';}
+.interview tr {display: flex;flex-direction: column;}
+.interview tr th {
+    background-color:#EFEFEF;
+    border-radius:4px;
+    border:1px solid #D0D0D0;
+    overflow:auto;
+    float:left;
+    white-space: pre-wrap;
+    resize: none;
+    width: 100%;
+    /* font-family: 'Nanum'; */
+    padding: 5px;
+    margin: 20px 0;
+}
+/* .interview tr td textarea {font-family: 'Nanum';} */
+.interview tr td textarea {
+    background-color:#EFEFEF;
+    /* border-radius:4px; */
+    border:1px solid #D0D0D0;
+    overflow:auto;
+    float:left;
+    white-space: pre-wrap;
+    resize: none;
+    width: 100%;
+    font-family: 'Nanum';
+    padding: 5px;
+    font-size: 16px;
+    min-height: 150px;
+}
+
+/* section 05-regist photo */
+.btn_next_box.photo .btn_next {margin-top: 250px;}
+
+ul.cvf_uploaded_files {list-style-type: none; margin: 20px 0 0 0; padding: 0;}
+ul.cvf_uploaded_files li {background-color: #fff; border: 1px solid #ccc; border-radius: 5px; float: left; margin: 20px 20px 0 0; padding: 2px; width: 150px; height: 150px; line-height: 150px; position: relative;}
+ul.cvf_uploaded_files li img.img-thumb {width: 150px; height: 150px;}
+ul.cvf_uploaded_files .ui-selected {background: red;}
+ul.cvf_uploaded_files .highlight {border: 1px dashed #000; width: 150px; background-color: #ccc; border-radius: 5px;}
+ul.cvf_uploaded_files .delete-btn {width: 24px; border: 0; position: absolute; top: -12px; right: -14px;}
+.bg-success {padding: 7px;}
