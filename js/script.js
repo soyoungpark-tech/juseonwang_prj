@@ -231,7 +231,7 @@ jQuery(document).ready(function() {
                       $('.cvf_uploaded_files').append(
                       "<li file = '" + file.name + "'>" +                                
                           "<img class = 'img-thumb' src = '" + e.target.result + "' />" +
-                          "<a href = '#' class = 'cvf_delete_image' title = 'Cancel'><img class = 'delete-btn' src = '/img/delete_x.png' /></a>" +
+                          "<a href = '#' class = 'cvf_delete_image' title = 'Cancel'><img class = 'delete-btn' src = '/juseonwang_prj/img/delete_x.png' /></a>" +
                       "</li>"
                       );     
                   };
