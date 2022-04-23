@@ -11,7 +11,7 @@
 
 /* button style */
 .btn_next_box {margin: 20px 0;}
-.btn_next {display: block;background: #eee;color: #000;border-bottom: none;text-align: center;width: 100%;margin: 10px 0;border-radius: 6px;padding: 22.5px;}
+.btn_next {display: block;background: #eee;color: #000;border-bottom: none;text-align: center;width: 100%;margin: 10px 0;border-radius: 6px;padding: 22.5px;font-size: 14px;}
 .btn_next:hover {background: #fe9727;transition: all .2s;}
 
 
@@ -153,10 +153,18 @@
   }
 
   /* section 06 -certification */
-  .certification {font-size: 9px; background: #eee;padding: 15px 20px;border-radius: 25px; width: 90%; margin: 0 auto;border: 5px solid rgb(112, 107, 107);}
+  .certification {font-size: 9px; background: #eee;padding: 15px 20px;border-radius: 25px; width: 75%; margin: 0 auto;border: 5px solid #d0d0d0;}
   .certification .certification_box h1 {font-size: 13px;padding-bottom: 13px;}
   .certification .certification_box p {font-size: 9px; line-height: normal;}
   .cer_btn_box {display: flex;}
   .cer_btn_box .column_half:nth-child(1) {padding-right: 5px;}
   .cer_btn_box .column_half:nth-child(2) {padding-left: 5px;}
   .cer_btn_box .column_half  button {background-color: #fe9727;padding: 13px;font-size: 14px;margin: 0;}
+
+  /* section 07 -cer_02 */
+  .sec07_cer_02 .tit_greet h1 {font-size: 14px;}
+  .sec07_cer_02 .tit_greet p {font-size: 12px;}
+  .sec07_cer_02 .cer_02 .cer02_item_box {padding: 15px 0;line-height: 1.3rem;width: 60%;margin: 0 auto;border-radius: 10px;background: #eeeeee;margin-bottom: 10px;}
+  .sec07_cer_02 .cer_02 h1 {font-size: 14px;line-height: normal;}
+  .sec07_cer_02 .cer_02 h1 span {font-size: 9px;font-family: 'Nanum';}
+  .sec07_cer_02 .btn_next {width: 60%; margin: 35px auto 0;padding: 15px 0;}
