@@ -167,6 +167,7 @@ body{
   .sec03_profile {font-size: 1.1rem;}
   #ck_btn label {height: 41px;line-height: 35px;}
   #ck_btn label span {font-size: .9rem;padding: 3px 15px;}
+  #ck_btn input:checked + span {padding: 3px 15px;}
 
   /* section 04 -interview */
   .sec04_interview {font-size: 1.1rem;}

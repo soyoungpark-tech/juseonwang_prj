@@ -1,10 +1,11 @@
-$(document).ready(function() {
+// js
+function setScreenSize() {
+	let vh = window.innerHeight * 0.01;
+	document.documentElement.style.setProperty('--vh', `${vh}px`);
+}
+setScreenSize();
+window.addEventListener('resize', setScreenSize);
 
-    function history() {
-        document.getElementById("btn_next").style.background="red"
-    }
-
-});
 // 체형 체크박스
 // function count_ck(obj){
 //     var chkbox = document.getElementsByName("shape");
