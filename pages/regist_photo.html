@@ -39,33 +39,22 @@
     <div class="desktop">
         <div class="sec05_regist_photo secbox">
             <div class="tit_greet">
+                <p class="c_orange m_10">
+                    프로필 사진 등록 (3/4)
+                </p>
                 <p>
-                    <span class="c_orange">프로필 사진 등록 (3/4)</span>
-                    <br>
                     얼굴이 잘 드러난 사진을 등록해주세요.
                 </p>
             </div>
             <div class="regist_photo ta_l c_blk">
-                <div class="container-fluid">
-                    <!-- <h3>Sort Files before upload</h3> -->
-                    <div class="col-md-6">
-
-                        <div class="form-group">
-                            <!-- <label>Select Images</label> -->
-                            <input type="file" name="upload" multiple="multiple"
-                                class="form-control user_picked_files" />
-                        </div>
-
-                        <!-- <div class="form-group cvf_order">                           
-                        <label>Order</label>                               
-                        <input type="text" class="form-control cvf_hidden_field" value="" disabled="disabled" />   
-                    </div>                      -->
-
-                        <!-- <input type="submit" class="cvf_upload_btn btn btn-primary" value="Upload" /> -->
-
-                        <ul class="cvf_uploaded_files"></ul>
+                <form method="post" enctype="multipart/form-data">
+                    <div class="button">
+                        <label for="chooseFile">
+                            👉 CLICK HERE! 👈
+                        </label>
                     </div>
-                </div>
+                    <input type="file" id="chooseFile" name="chooseFile" accept="image/*" onchange="loadFile(this)">
+                </form>
             </div>
             <div class="btn_next_box photo">
                 <button class="btn_next" id="btn_next" type="button"
