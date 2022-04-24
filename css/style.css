@@ -150,7 +150,11 @@ span.textbox input {
 /* section 05-regist photo */
 /* .sec05_regist_photo { height: 100vh; } */
 .regist_photo {margin: 20px 0;}
-.btn_next_box.photo .btn_next {margin-top: 250px;}
+.regist_photo .form_box {display: flex;flex-wrap: wrap;}
+.regist_photo form {margin: 30px auto;width: 33%;}
+.regist_photo form input {font-size: 10px;position: relative;width: 100px;height: 100px;border-radius: 5px;line-height: 5;}
+.regist_photo form input:after {content: "+";position: absolute;background: #eee;font-size: 20px;text-align: center;width: 100px;height: 100px;top: 0;left: 0;border-radius: 5px;}
+
 
 /* .sec05_regist_photo  */
 /* label 스타일 조정 */
@@ -171,6 +175,8 @@ span.textbox input {
 .dellink{
     display: none;
   }
+
+  .form_img {width: 100px;height: 100px;border-radius: 5px;overflow: hidden;margin-top: 20px;}
 
   /* section 06 -certification */
   .certification {font-size: 9px; background: #eee;padding: 15px 20px;border-radius: 25px; width: 80%; margin: 0 auto;border: 5px solid #d0d0d0;}

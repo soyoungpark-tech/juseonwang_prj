@@ -46,15 +46,60 @@
                     얼굴이 잘 드러난 사진을 등록해주세요.
                 </p>
             </div>
-            <div class="regist_photo ta_l c_blk">
-                <form method="post" enctype="multipart/form-data">
+            <div class="regist_photo c_blk">
+                <p class="fz_13 ta_r">필수 3장</p>
+                <!-- <form method="post" enctype="multipart/form-data">
                     <div class="button">
                         <label for="chooseFile">
                             👉 CLICK HERE! 👈
                         </label>
                     </div>
                     <input type="file" id="chooseFile" name="chooseFile" accept="image/*" onchange="loadFile(this)">
-                </form>
+                </form> -->
+                <div class="form_box">
+                    <form id="form1" runat="server">
+                        <input type='file' onchange="readURL(this);" />
+                        <div class="form_img">
+                            <img id="blah" src="#" alt="your image" />
+                        </div>
+                    </form>
+                    <form id="form1" runat="server">
+                        <input type='file' onchange="readURL02(this);" />
+                        <div class="form_img">
+                            <img id="blah02" src="#" alt="your image" />
+                        </div>
+                    </form>
+                    <form id="form1" runat="server">
+                        <input type='file' onchange="readURL03(this);" />
+                        <div class="form_img">
+                            <img id="blah03" src="#" alt="your image" />
+                        </div>
+                    </form>
+                    <form id="form1" runat="server">
+                        <input type='file' onchange="readURL(this);" />
+                        <div class="form_img">
+                            <img id="blah" src="#" alt="your image" />
+                        </div>
+                    </form>
+                    <form id="form1" runat="server">
+                        <input type='file' onchange="readURL02(this);" />
+                        <div class="form_img">
+                            <img id="blah02" src="#" alt="your image" />
+                        </div>
+                    </form>
+                    <form id="form1" runat="server">
+                        <input type='file' onchange="readURL03(this);" />
+                        <div class="form_img">
+                            <img id="blah03" src="#" alt="your image" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div>
+                <p class="c_fff fz_13 m_50">
+                    프로필 사진은, 가입기준 확인과 매칭을 위해서만<br>
+                    사용되며, 절대로 외부에 공개되지 않습니다.
+                </p>
             </div>
             <div class="btn_next_box photo">
                 <button class="btn_next" id="btn_next" type="button"
