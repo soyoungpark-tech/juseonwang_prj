@@ -29,11 +29,11 @@
 
 <div class="desktop">
     <div class="sec03_profile secbox">
-        <div class="tit_greet">
-            <p class="c_orange m_10">
+        <div>
+            <p class="c_orange m_10 fz_14">
                 프로필 등록 (1/4)
             </p>
-            <p>
+            <p class="tit_greet">
                 회원가입을 하면 주선왕 매칭 서비스를 무료로 체험해볼 수 있어요.<br class="pc-content">
                 정보는 모두 비밀유지 되니, 안심하세요.
             </p>
@@ -45,11 +45,11 @@
                         <tbody>
                             <tr>
                                 <th><label for="">이름</label></th>
-                                <td><input type="text" name="username" placeholder="이름을 입력하세요"></td>
+                                <td><input class="username" type="text" name="username" placeholder="이름을 입력하세요"></td>
                             </tr>
                             <tr>
                                 <th><label for="">회원님의 키는?</label></th>
-                                <td><input type="text" name="userheight" placeholder="cm"></td>
+                                <td><input class="userheight" type="text" name="userheight" placeholder="cm"></td>
                             </tr>
                             <tr class="shape_form">
                                 <th><label for="">회원님의 체형은?</label></th>
@@ -76,12 +76,12 @@
                                     </div>
                                     <div id="ck_btn">
                                         <label>
-                                            <input type="checkbox" name="shape" onClick="count_ck(this);" value="voluptuous"><span>(여)글래머한</span>
+                                            <input type="checkbox" name="shape" onClick="count_ck(this);" value="fit"><span>(남)근육질</span>
                                         </label>
                                     </div>
                                     <div id="ck_btn">
                                         <label>
-                                            <input type="checkbox" name="shape" onClick="count_ck(this);" value="fit"><span>(남)근육질</span>
+                                            <input type="checkbox" name="shape" onClick="count_ck(this);" value="voluptuous"><span>(여)글래머한</span>
                                         </label>
                                     </div>
                                     <div id="ck_btn">

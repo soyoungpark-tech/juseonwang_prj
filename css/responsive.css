@@ -157,17 +157,17 @@ body{
 
 
   .m_br{display: none;}
-  .desktop .secbox {margin: 30px 0;}
-  .terms_box {padding: 20px 25px;line-height: 1.3rem;}
+  /* .desktop .secbox {margin: 30px 0;} */
+  .terms_box {padding: 20px 25px;}
 
   /* section 02-registration */
-  .sec02_terms {font-size: 1.1rem;height: auto;}
+  /* .sec02_terms {font-size: 1.1rem;height: auto;} */
 
   /* section 03 -profile */
-  .sec03_profile {font-size: 1.1rem;}
-  #ck_btn label {height: 41px;line-height: 35px;}
-  #ck_btn label span {font-size: .9rem;padding: 3px 15px;}
-  #ck_btn input:checked + span {padding: 3px 15px;}
+  /* .sec03_profile {font-size: 1.1rem;}
+  #ck_btn label {height: 41px;line-height: 35px;} */
+  /* #ck_btn label span {font-size: .9rem;padding: 3px 15px;} */
+  /* #ck_btn input:checked + span {padding: 3px 15px;} */
 
   /* section 04 -interview */
   .sec04_interview {font-size: 1.1rem;}

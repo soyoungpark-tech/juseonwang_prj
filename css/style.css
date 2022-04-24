@@ -2,8 +2,7 @@
 
 /* common layout */
 .desktop{max-width: 700px; margin: 0 auto;background: #393636ff;padding: 20px;}
-/* .desktop .secbox {padding: 70px 40px 50px;} */
-.desktop .secbox {margin: 40px 20px;}
+.desktop .secbox {margin: 20px 10px;}
 
 /* common font style */
 .font_dohyeon {font-family: 'BMDOHYEON';}
@@ -11,8 +10,11 @@
 
 /* button style */
 .btn_next_box {margin: 20px 0;}
-.btn_next {display: block;background: #eee;color: #000;border-bottom: none;text-align: center;width: 100%;margin: 10px 0;border-radius: 6px;padding: 22.5px;font-size: 14px;}
-.btn_next:hover {background: #fe9727;transition: all .2s;}
+.btn_next {display: block;background: #fe9727;color: #000;border-bottom: none;text-align: center;width: 80%;margin: 10px auto;border-radius: 6px;padding: 17.5px;font-size: 14px;}
+/* .btn_next:hover {background: #fe9727;transition: all .2s;} */
+
+/* common style */
+.tit_greet {font-size: 12px;line-height: 18px;}
 
 
 /* section 01 */
@@ -25,21 +27,27 @@
     text-align: center;
     width: 100%;
     margin: 10px 0;
-    border-radius: 6px;
-    padding: 50px;
+    border-radius: 15px;
+    padding: 45px;
+    font-size: 14px;
 }
 
 /* section 02 -Requirement */
 /* .sec02_terms {height: 100vh;} */
-.terms_box {background: #eee;padding: 25px 30px;border-radius: 25px;line-height: 1.6rem;}
+.terms_box {background: #eee;padding: 25px 30px;border-radius: 25px;}
+.terms_box h1 {font-size: 12px;}
+.terms_box ol {font-size: 8px;padding-top: 5px;}
+.terms_box ol li {margin-bottom: 8px;}
 
 /* section 03 -profile */
 .profile tr {display: flex;flex-direction: column;}
-.profile tr td input {border-radius: 10px;padding: 10px;font-family: 'Nanum';}
-.profile tr th {margin: 10px 0;color: #fff;}
+.profile tr td input {border-radius: 10px;padding: 5px 10px;font-family: 'Nanum';}
+.profile tr td input.username {width: 75%;}
+.profile tr td input.userheight {width: 90%;}
+.profile tr th {margin: 10px 0;color: #fff;font-size: 14px;}
 
  #ck_btn {
-     margin:10px;
+     margin:5px;
      background-color:#EFEFEF;
      border-radius:4px;
      border:1px solid #D0D0D0;
@@ -59,16 +67,17 @@
  #ck_btn label {
     float: left;
     width: auto;
-    height: 45px;
+    height: 25px;
     text-align: center;
     align-items: center;
-    line-height: 39px;
+    line-height: 19px;
     }
  
  #ck_btn label span {
      text-align:center;
-     padding:3px 20px;
+     padding:3px 15px;
      display:block;
+     font-size: 10px;
  }
  
  #ck_btn label input {
@@ -107,11 +116,10 @@
     white-space: pre-wrap;
     resize: none;
     width: 100%;
-    /* font-family: 'Nanum'; */
     padding: 5px;
     margin: 20px 0;
+    font-size: 11px;
 }
-/* .interview tr td textarea {font-family: 'Nanum';} */
 .interview tr td textarea {
     background-color:#EFEFEF;
     /* border-radius:4px; */
@@ -123,7 +131,7 @@
     width: 100%;
     font-family: 'Nanum';
     padding: 5px;
-    font-size: 16px;
+    font-size: 12px;
     min-height: 150px;
 }
 
@@ -153,13 +161,13 @@
   }
 
   /* section 06 -certification */
-  .certification {font-size: 9px; background: #eee;padding: 15px 20px;border-radius: 25px; width: 75%; margin: 0 auto;border: 5px solid #d0d0d0;}
+  .certification {font-size: 9px; background: #eee;padding: 15px 20px;border-radius: 25px; width: 80%; margin: 0 auto;border: 5px solid #d0d0d0;}
   .certification .certification_box h1 {font-size: 13px;padding-bottom: 13px;}
   .certification .certification_box p {font-size: 9px; line-height: normal;}
   .cer_btn_box {display: flex;}
   .cer_btn_box .column_half:nth-child(1) {padding-right: 5px;}
   .cer_btn_box .column_half:nth-child(2) {padding-left: 5px;}
-  .cer_btn_box .column_half  button {background-color: #fe9727;padding: 13px;font-size: 14px;margin: 0;}
+  .cer_btn_box .column_half  button {background-color: #fe9727;padding: 10px;font-size: 14px;margin: 0 auto;width: 100%;}
 
   /* section 07 -cer_02 */
   .sec07_cer_02 .tit_greet h1 {font-size: 14px;}
