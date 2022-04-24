@@ -1,7 +1,7 @@
 // js
 function setScreenSize() {
-	let vh = window.innerHeight * 0.01;
-	document.documentElement.style.setProperty('--vh', `${vh}px`);
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
 }
 setScreenSize();
 window.addEventListener('resize', setScreenSize);
@@ -61,90 +61,90 @@ window.addEventListener('resize', setScreenSize);
 
 // 체형 체크박스 -input radio 기능추가
 function count_ck(element) {
-  
-    const checkboxesSh
-        = document.getElementsByName("shape");
-    
-    checkboxesSh.forEach((cb) => {
-      cb.checked = false;
-    })
-    
-    element.checked = true;
-  }
+
+  const checkboxesSh
+    = document.getElementsByName("shape");
+
+  checkboxesSh.forEach((cb) => {
+    cb.checked = false;
+  })
+
+  element.checked = true;
+}
 
 // 주량 체크박스
 function count_ckAl(element) {
-  
-    const checkboxesAl 
-        = document.getElementsByName("alcohol");
-    
-    checkboxesAl.forEach((cb) => {
-      cb.checked = false;
-    })
-    
-    element.checked = true;
-  }
+
+  const checkboxesAl
+    = document.getElementsByName("alcohol");
+
+  checkboxesAl.forEach((cb) => {
+    cb.checked = false;
+  })
+
+  element.checked = true;
+}
 // 종교 체크박스
 function count_ckRe(element) {
-  
-    const checkboxesRe 
-        = document.getElementsByName("religion");
-    
-    checkboxesRe.forEach((cb) => {
-      cb.checked = false;
-    })
-    
-    element.checked = true;
-  }
+
+  const checkboxesRe
+    = document.getElementsByName("religion");
+
+  checkboxesRe.forEach((cb) => {
+    cb.checked = false;
+  })
+
+  element.checked = true;
+}
 // 지역 체크박스
 function count_ckAr(element) {
-  
-    const checkboxesAr 
-        = document.getElementsByName("area");
-    
-    checkboxesAr.forEach((cb) => {
-      cb.checked = false;
-    })
-    
-    element.checked = true;
-  }
+
+  const checkboxesAr
+    = document.getElementsByName("area");
+
+  checkboxesAr.forEach((cb) => {
+    cb.checked = false;
+  })
+
+  element.checked = true;
+}
 // 키워드 체크박스
 // function count_ckKey(element) {
-  
+
 //     const checkboxesKey 
 //         = document.getElementsByName("keyword");
-    
+
 //     checkboxesKey.forEach((cb) => {
 //       cb.checked = false;
 //     })
-    
+
 //     element.checked = true;
 //   }
-  function count_ckKey(obj){
-    var checkboxesKey = document.getElementsByName("keyword");
-    var chkCntKey = 0;
+function count_ckKey(obj) {
+  var checkboxesKey = document.getElementsByName("keyword");
+  var chkCntKey = 0;
 
-    for(var i=0;i<checkboxesKey.length; i++){
-        if(checkboxesKey[i].checked){
-            chkCntKey++;
-        }
+  for (var i = 0; i < checkboxesKey.length; i++) {
+    if (checkboxesKey[i].checked) {
+      chkCntKey++;
     }
-    if(chkCntKey>3){
-        alert("3개 까지만 선택 가능합니다.");
-        obj.checked = false;
-        return false;
-    }
+  }
+  if (chkCntKey > 3) {
+    alert("3개 까지만 선택 가능합니다.");
+    obj.checked = false;
+    return false;
+  }
 }
 // 학력 체크박스
 function count_ckEdu(element) {
-  
-  const checkboxesEdu 
-      = document.getElementsByName("education");
-  
+
+  const checkboxesEdu
+    = document.getElementsByName("education");
+
   checkboxesEdu.forEach((cb) => {
     cb.checked = false;
   })
-  
+
   element.checked = true;
 }
 
@@ -171,4 +171,4 @@ function count_ckEdu(element) {
 // }
 
 // 이미지 업로드 
-jsfunction setThumbnail(event) { for (var image of event.target.files) { var reader = new FileReader(); reader.onload = function(event) { var img = document.createElement("img"); img.setAttribute("src", event.target.result); document.querySelector("div#image_container").appendChild(img); }; console.log(image); reader.readAsDataURL(image); } }
+// jsfunction setThumbnail(event) { for (var image of event.target.files) { var reader = new FileReader(); reader.onload = function(event) { var img = document.createElement("img"); img.setAttribute("src", event.target.result); document.querySelector("div#image_container").appendChild(img); }; console.log(image); reader.readAsDataURL(image); } }

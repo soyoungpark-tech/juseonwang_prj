@@ -56,7 +56,7 @@ span.textbox input {
     background-color: #FFF;
 }
 .profile tr td input.userheight {width: 70%;}
-.profile tr th {margin: 10px 0;color: #fff;font-size: 14px;}
+.profile tr th {margin: 10px 0;color: #fff;font-size: 13px;}
 
  #ck_btn {
      margin:5px;
@@ -100,7 +100,7 @@ span.textbox input {
  
  #ck_btn input:checked + span {
      background-color:#fe9727;
-    padding: 3px 20px;
+    /* padding: 3px 20px; */
     }
 .profile tr td textarea {
     background-color:#EFEFEF;
@@ -113,7 +113,7 @@ span.textbox input {
     width: 100%;
     font-family: 'Nanum';
     padding: 5px;
-    font-size: 16px;
+    font-size: 11px;
 }
 
 /* section 04 -interview */
