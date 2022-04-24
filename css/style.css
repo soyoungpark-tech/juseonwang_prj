@@ -42,7 +42,7 @@
 /* section 03 -profile */
 .profile tr {display: flex;flex-direction: column;}
 .profile tr td input {border-radius: 6px;font-family: 'Nanum';border: none;}
-.profile tr td input.username {width: 75%;padding: 5px 10px;height: 20px;font-size: 14px;}
+.profile tr td input.username {width: 75%;padding: 5px 10px;height: 25px;font-size: 14px;}
 span.textbox {
     background-color: #FFF;
     color: #000;
