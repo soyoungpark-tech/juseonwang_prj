@@ -181,3 +181,5 @@
   .cer_box {background-color: #eee;border-radius: 15px; font-size: 11px;padding: 10px;margin-bottom: 45px;}
   .cer_container .cer_box:nth-child(1) {font-size: 8px;}
   .cer_container .cer_box.sec {padding: 25px 10px;}
+  .cer_ex_photo .ph_img {width: 75%;margin: 0 auto;}
+  .cer_ex_photo .ph_img.ph_02 {width: 100%;}
