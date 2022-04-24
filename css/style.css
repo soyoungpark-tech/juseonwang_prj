@@ -41,9 +41,21 @@
 
 /* section 03 -profile */
 .profile tr {display: flex;flex-direction: column;}
-.profile tr td input {border-radius: 10px;padding: 5px 10px;font-family: 'Nanum';}
-.profile tr td input.username {width: 75%;}
-.profile tr td input.userheight {width: 90%;}
+.profile tr td input {border-radius: 6px;font-family: 'Nanum';border: none;}
+.profile tr td input.username {width: 75%;padding: 5px 10px;height: 20px;font-size: 14px;}
+span.textbox {
+    background-color: #FFF;
+    color: #000;
+    border-radius: 6px;
+    padding:5px 10px;
+    font-size:14px;
+}
+
+span.textbox input {
+  border: 0px;
+    background-color: #FFF;
+}
+.profile tr td input.userheight {width: 70%;}
 .profile tr th {margin: 10px 0;color: #fff;font-size: 14px;}
 
  #ck_btn {
