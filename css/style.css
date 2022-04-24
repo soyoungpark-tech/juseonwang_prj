@@ -37,7 +37,7 @@
 .terms_box {background: #eee;padding: 25px 30px;border-radius: 25px;}
 .terms_box h1 {font-size: 12px;}
 .terms_box ol {font-size: 8px;padding-top: 5px;}
-.terms_box ol li {margin-bottom: 8px;}
+.terms_box ol li {margin-bottom: 4px;}
 
 /* section 03 -profile */
 .profile tr {display: flex;flex-direction: column;}
