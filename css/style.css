@@ -172,7 +172,12 @@
   /* section 07 -cer_02 */
   .sec07_cer_02 .tit_greet h1 {font-size: 14px;}
   .sec07_cer_02 .tit_greet p {font-size: 12px;}
-  .sec07_cer_02 .cer_02 .cer02_item_box {padding: 15px 0;line-height: 1.3rem;width: 60%;margin: 0 auto;border-radius: 10px;background: #eeeeee;margin-bottom: 10px;}
+  .sec07_cer_02 .cer_02 .cer02_item_box {padding: 15px 0;line-height: 1.3rem;width: 75%;margin: 0 auto;border-radius: 10px;background: #eeeeee;margin-bottom: 10px;}
   .sec07_cer_02 .cer_02 h1 {font-size: 14px;line-height: normal;}
   .sec07_cer_02 .cer_02 h1 span {font-size: 9px;font-family: 'Nanum';}
-  .sec07_cer_02 .btn_next {width: 60%; margin: 35px auto 0;padding: 15px 0;}
+  .sec07_cer_02 .btn_next {width: 75%; margin: 35px auto 0;}
+
+  /* section cer job */
+  .cer_box {background-color: #eee;border-radius: 15px; font-size: 11px;padding: 10px;margin-bottom: 45px;}
+  .cer_container .cer_box:nth-child(1) {font-size: 8px;}
+  .cer_container .cer_box.sec {padding: 25px 10px;}
