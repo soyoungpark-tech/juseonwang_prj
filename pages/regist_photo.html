@@ -48,52 +48,72 @@
             </div>
             <div class="regist_photo c_blk">
                 <p class="fz_13 ta_r">필수 3장</p>
-                <!-- <form method="post" enctype="multipart/form-data">
-                    <div class="button">
-                        <label for="chooseFile">
-                            👉 CLICK HERE! 👈
-                        </label>
-                    </div>
-                    <input type="file" id="chooseFile" name="chooseFile" accept="image/*" onchange="loadFile(this)">
-                </form> -->
-                <div class="form_box">
-                    <form id="form1" runat="server">
-                        <input type='file' onchange="readURL(this);" />
-                        <div class="form_img">
-                            <img id="blah" src="#" alt="your image" />
+                <div>
+                    <div class="container">
+                        <div class="ocr_upload">
+                          <p class="ocr_upload-text">
+                            OCR 이미지
+                            <span class="ocr_upload-warning">
+                            ※ *.png / *.jpg (이미지파일)로 업로드해주세요 ※
+                            </span>
+                          </p>
+                          <form class="ocr_form" action="#" method="POST" 
+                                enctype="multipart/form-data">
+                            <input type="text" class="upload-name" 
+                             value="이미지를 업로드 하세요" placeholder="이미지를 업로드 하세요" disabled>
+                            <label for="upload-file">파일선택</label>
+                            <input name="file" type="file" id="upload-file">
+                          </form>
                         </div>
-                    </form>
-                    <form id="form1" runat="server">
-                        <input type='file' onchange="readURL02(this);" />
-                        <div class="form_img">
-                            <img id="blah02" src="#" alt="your image" />
+                        
+                        <div class="ocr_thumbnail visible">
+                          <img src="" class="thumbNail">
+                            <label for="file">변환하기</label>
+                            <input form="ocr_form" type="submit">
                         </div>
-                    </form>
-                    <form id="form1" runat="server">
-                        <input type='file' onchange="readURL03(this);" />
-                        <div class="form_img">
-                            <img id="blah03" src="#" alt="your image" />
-                        </div>
-                    </form>
-                    <form id="form1" runat="server">
-                        <input type='file' onchange="readURL(this);" />
-                        <div class="form_img">
-                            <img id="blah" src="#" alt="your image" />
-                        </div>
-                    </form>
-                    <form id="form1" runat="server">
-                        <input type='file' onchange="readURL02(this);" />
-                        <div class="form_img">
-                            <img id="blah02" src="#" alt="your image" />
-                        </div>
-                    </form>
-                    <form id="form1" runat="server">
-                        <input type='file' onchange="readURL03(this);" />
-                        <div class="form_img">
-                            <img id="blah03" src="#" alt="your image" />
-                        </div>
-                    </form>
+                      </div>
+                    <!-- <input type="file" class="real-upload" accept="image/*" required multiple>
+                    <div class="upload"></div>
+                    <ul class="image-preview"></ul> -->
                 </div>
+                <!-- <div class="form_box">
+                    <form id="form1" runat="server">
+                        <input type='file' onchange="readURL(this);" />
+                        <div class="form_img">
+                            <img id="blah" src="#" alt="your image" />
+                        </div>
+                    </form>
+                    <form id="form1" runat="server">
+                        <input type='file' onchange="readURL02(this);" />
+                        <div class="form_img">
+                            <img id="blah02" src="#" alt="your image" />
+                        </div>
+                    </form>
+                    <form id="form1" runat="server">
+                        <input type='file' onchange="readURL03(this);" />
+                        <div class="form_img">
+                            <img id="blah03" src="#" alt="your image" />
+                        </div>
+                    </form>
+                    <form id="form1" runat="server">
+                        <input type='file' onchange="readURL(this);" />
+                        <div class="form_img">
+                            <img id="blah" src="#" alt="your image" />
+                        </div>
+                    </form>
+                    <form id="form1" runat="server">
+                        <input type='file' onchange="readURL02(this);" />
+                        <div class="form_img">
+                            <img id="blah02" src="#" alt="your image" />
+                        </div>
+                    </form>
+                    <form id="form1" runat="server">
+                        <input type='file' onchange="readURL03(this);" />
+                        <div class="form_img">
+                            <img id="blah03" src="#" alt="your image" />
+                        </div>
+                    </form>
+                </div> -->
             </div>
             <div>
                 <p class="c_fff fz_13 m_50">
@@ -107,6 +127,55 @@
             </div>
         </div>
     </div>
+    <script>
+//         function getImageFiles(e) {
+//   const uploadFiles = [];
+//   const files = e.currentTarget.files;
+//   const imagePreview = document.querySelector('.image-preview');
+//   const docFrag = new DocumentFragment();
+
+//   if ([...files].length >= 7) {
+//     alert('이미지는 최대 6개 까지 업로드가 가능합니다.');
+//     return;
+//   }
+
+//   // 파일 타입 검사
+//   [...files].forEach(file => {
+//     if (!file.type.match("image/.*")) {
+//       alert('이미지 파일만 업로드가 가능합니다.');
+//       return
+//     }
+
+//     // 파일 갯수 검사
+//     if ([...files].length < 7) {
+//       uploadFiles.push(file);
+//       const reader = new FileReader();
+//       reader.onload = (e) => {
+//         const preview = createElement(e, file);
+//         imagePreview.appendChild(preview);
+//       };
+//       reader.readAsDataURL(file);
+//     }
+//   });
+// }
+
+// function createElement(e, file) {
+//   const li = document.createElement('li');
+//   const img = document.createElement('img');
+//   img.setAttribute('src', e.target.result);
+//   img.setAttribute('data-file', file.name);
+//   li.appendChild(img);
+
+//   return li;
+// }
+
+// const realUpload = document.querySelector('.real-upload');
+// const upload = document.querySelector('.upload');
+
+// upload.addEventListener('click', () => realUpload.click());
+
+// realUpload.addEventListener('change', getImageFiles);
+    </script>
 
 </body>
 
