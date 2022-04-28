@@ -10,9 +10,7 @@
 
 /* button style */
 .btn_next_box {margin: 20px 0;}
-.btn_next {display: block;background: #fe9727;color: #000;border-bottom: none;text-align: center;width: 80%;margin: 10px auto;border-radius: 6px;padding: 17.5px;font-size: 14px;position: fixed;bottom: 3%;}
-.btn_flex {display: flex;}
-.btn_flex .btn_next {position: inherit;width: 30%;}
+.btn_next {display: block;background: #fe9727;color: #000;border-bottom: none;text-align: center;width: 80%;margin: 10px auto;border-radius: 6px;padding: 17.5px;font-size: 14px;}
 /* .btn_next:hover {background: #fe9727;transition: all .2s;} */
 
 /* common style */
@@ -212,6 +210,7 @@ span.textbox input {
   .rec_code button {display: block;background: #fe9727;color: #000;border-bottom: none;text-align: center;width: 23%;margin: 10px auto;border-radius: 6px;padding: 17.5px;font-size: 14px;}
   .rec_code input {height: 50px;border: none;border-radius: 10px;width: 80%;margin-right: 10px;}
   .rec_tit {margin-bottom: 10px;}
+  .sec09_finish .tit_greet {padding: 200px 0;}
 
 
 
