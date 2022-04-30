@@ -91,16 +91,16 @@ img.pc-content{display: inline-block;}
 .h6{font-size:1.5rem; line-height: 1.4;}
 
 
-.fz_8 {font-size: 8px;}
-.fz_9 {font-size: 9px;}
-.fz_10 {font-size: 10px;}
-.fz_11 {font-size: 11px;}
-.fz_12 {font-size: 12px;}
-.fz_13 {font-size: 13px;}
-.fz_14 {font-size: 14px;}
-.fz_15 {font-size: 15px;}
-.fz_16 {font-size: 16px;}
-.fz_17 {font-size: 17px;}
+.fz_8 {font-size: 10px;}
+.fz_9 {font-size: 11px;}
+.fz_10 {font-size: 12px;}
+.fz_11 {font-size: 13px;}
+.fz_12 {font-size: 14px;}
+.fz_13 {font-size: 15px;}
+.fz_14 {font-size: 16px;}
+.fz_15 {font-size: 17px;}
+.fz_16 {font-size: 18px;}
+.fz_17 {font-size: 19px;}
 
 /* .fz_15{font-size:1rem; line-height: 1.5;}
 .fz_16{font-size:1.063rem; line-height: 1.5;}

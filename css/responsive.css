@@ -83,7 +83,7 @@
 }
 @media (max-width:590px) {
   /* font-size */   
-  .h1{font-size:1.875rem; line-height: 1.4;}
+  /* .h1{font-size:1.875rem; line-height: 1.4;}
   .h2{font-size:1.563rem; line-height: 1.4;}
   .h3{font-size:1.5rem; line-height: 1.4;}
   .h4{font-size:1.25rem; line-height: 1.4;}
@@ -96,14 +96,14 @@
   .fz_18{font-size: 1rem; line-height: 1.6}
   .fz_19{font-size: 1rem; line-height: 1.6;}
   .fz_20{font-size: 1.063rem; line-height: 1.6;}
-}
+} */
 @media (max-width:480px) {
-  .fz_44{font-size: 30px;font-weight: bolder;}
+  /* .fz_44{font-size: 30px;font-weight: bolder;}
   .fz_48 {font-size: 32px;}
   .fz_17 {font-size: 18px;font-weight: 500;}
   .fz_22 {font-size: 17px; font-weight: 700;}
   .fz_16 { font-size: 14px; }
-  .container.md {margin: 0;}
+  .container.md {margin: 0;} */
 
  /* html{
     font-size : 62.5% 

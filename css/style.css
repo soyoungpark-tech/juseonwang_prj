@@ -16,7 +16,7 @@
 /* .btn_next:hover {background: #fe9727;transition: all .2s;} */
 
 /* common style */
-.tit_greet {font-size: 12px;line-height: 18px;}
+.tit_greet {font-size: 14px;line-height: 18px;}
 
 
 /* section 01 */
@@ -31,26 +31,26 @@
     margin: 10px 0;
     border-radius: 15px;
     padding: 45px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* section 02 -Requirement */
 /* .sec02_terms {height: 100vh;} */
 .terms_box {background: #eee;padding: 25px 30px;border-radius: 25px;}
-.terms_box h1 {font-size: 12px;}
-.terms_box ol {font-size: 8px;padding-top: 5px;}
+.terms_box h1 {font-size: 14px;}
+.terms_box ol {font-size: 10px;padding-top: 5px;}
 .terms_box ol li {margin-bottom: 4px;}
 
 /* section 03 -profile */
 .profile tr {display: flex;flex-direction: column;}
 .profile tr td input {border-radius: 6px;font-family: 'Nanum';border: none;}
-.profile tr td input.username {width: 75%;padding: 5px 10px;height: 25px;font-size: 14px;}
+.profile tr td input.username {width: 75%;padding: 5px 10px;height: 25px;font-size: 16px;}
 span.textbox {
     background-color: #FFF;
     color: #000;
     border-radius: 6px;
     padding:5px 10px;
-    font-size:14px;
+    font-size:16px;
 }
 
 span.textbox input {
@@ -58,7 +58,7 @@ span.textbox input {
     background-color: #FFF;
 }
 .profile tr td input.userheight {width: 70%;}
-.profile tr th {margin: 10px 0;color: #fff;font-size: 13px;}
+.profile tr th {margin: 10px 0;color: #fff;font-size: 15px;}
 
  #ck_btn {
      margin:5px;
@@ -91,7 +91,7 @@ span.textbox input {
      text-align:center;
      padding:3px 15px;
      display:block;
-     font-size: 10px;
+     font-size: 12px;
  }
  
  #ck_btn label input {
@@ -115,7 +115,7 @@ span.textbox input {
     width: 100%;
     font-family: 'Nanum';
     padding: 5px;
-    font-size: 11px;
+    font-size: 13px;
 }
 
 /* section 04 -interview */
@@ -132,7 +132,7 @@ span.textbox input {
     width: 100%;
     padding: 5px;
     margin: 20px 0;
-    font-size: 11px;
+    font-size: 13px;
 }
 .interview tr td textarea {
     background-color:#EFEFEF;
@@ -145,7 +145,7 @@ span.textbox input {
     width: 100%;
     font-family: 'Nanum';
     padding: 5px;
-    font-size: 12px;
+    font-size: 15px;
     min-height: 150px;
 }
 
@@ -154,7 +154,7 @@ span.textbox input {
 .regist_photo {margin: 20px 0;}
 .regist_photo .form_box {display: flex;flex-wrap: wrap;}
 .regist_photo form {margin: 30px auto;width: 33%;}
-.regist_photo form input {font-size: 10px;position: relative;width: 100px;height: 100px;border-radius: 5px;line-height: 5;}
+.regist_photo form input {font-size: 12px;position: relative;width: 100px;height: 100px;border-radius: 5px;line-height: 5;}
 .regist_photo form input:after {content: "+";position: absolute;background: #eee;font-size: 20px;text-align: center;width: 100px;height: 100px;top: 0;left: 0;border-radius: 5px;}
 
 
@@ -181,25 +181,25 @@ span.textbox input {
   .form_img {width: 100px;height: 100px;border-radius: 5px;overflow: hidden;margin-top: 20px;}
 
   /* section 06 -certification */
-  .certification {font-size: 9px; background: #eee;padding: 15px 20px;border-radius: 25px; width: 80%; margin: 0 auto;border: 5px solid #d0d0d0;}
-  .certification .certification_box h1 {font-size: 13px;padding-bottom: 13px;}
-  .certification .certification_box p {font-size: 9px; line-height: normal;}
+  .certification {font-size: 11px; background: #eee;padding: 15px 20px;border-radius: 25px; width: 80%; margin: 0 auto;border: 5px solid #d0d0d0;}
+  .certification .certification_box h1 {font-size: 15px;padding-bottom: 13px;}
+  .certification .certification_box p {font-size: 11px; line-height: normal;}
   .cer_btn_box {display: flex;}
   .cer_btn_box .column_half:nth-child(1) {padding-right: 5px;}
   .cer_btn_box .column_half:nth-child(2) {padding-left: 5px;}
-  .cer_btn_box .column_half  button {background-color: #fe9727;padding: 10px;font-size: 14px;margin: 0 auto;width: 100%;}
+  .cer_btn_box .column_half  button {background-color: #fe9727;padding: 10px;font-size: 16px;margin: 0 auto;width: 100%;}
 
   /* section 07 -cer_02 */
-  .sec07_cer_02 .tit_greet h1 {font-size: 14px;}
-  .sec07_cer_02 .tit_greet p {font-size: 12px;}
+  .sec07_cer_02 .tit_greet h1 {font-size: 16px;}
+  .sec07_cer_02 .tit_greet p {font-size: 14px;}
   .sec07_cer_02 .cer_02 .cer02_item_box {padding: 15px 0;line-height: 1.3rem;width: 75%;margin: 0 auto;border-radius: 10px;background: #eeeeee;margin-bottom: 10px;}
-  .sec07_cer_02 .cer_02 h1 {font-size: 14px;line-height: normal;}
-  .sec07_cer_02 .cer_02 h1 span {font-size: 9px;font-family: 'Nanum';}
+  .sec07_cer_02 .cer_02 h1 {font-size: 16px;line-height: normal;}
+  .sec07_cer_02 .cer_02 h1 span {font-size: 11px;font-family: 'Nanum';}
   .sec07_cer_02 .btn_next {width: 75%; margin: 35px auto 0;}
 
   /* section cer job */
-  .cer_box {background-color: #eee;border-radius: 15px; font-size: 11px;padding: 10px;margin-bottom: 45px;}
-  .cer_container .cer_box:nth-child(1) {font-size: 8px;}
+  .cer_box {background-color: #eee;border-radius: 15px; font-size: 13px;padding: 10px;margin-bottom: 45px;}
+  .cer_container .cer_box:nth-child(1) {font-size: 10px;}
   .cer_container .cer_box.sec {padding: 25px 10px;}
   .cer_ex_photo .ph_img {width: 75%;margin: 0 auto;}
   .cer_ex_photo .ph_img.ph_02 {width: 100%;}
