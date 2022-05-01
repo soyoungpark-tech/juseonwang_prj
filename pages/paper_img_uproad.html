@@ -37,17 +37,11 @@
 <body>
 
     <div class="desktop">
-        <div class="sec05_regist_photo secbox">
+        <div class="sec06_01_paper_img_uproad secbox">
             <div class="tit_greet">
                 <p class="c_orange m_10">
-                    프로필 사진 등록 (3/4)
+                    인증용 사진 등록
                 </p>
-                <p>
-                    얼굴이 잘 드러난 사진을 등록해주세요.
-                </p>
-            </div>
-            <div class="regist_photo c_blk">
-                <p class="fz_13 ta_r">필수 3장</p>
             </div>
             <div class="img_box">
                 <div class="img_btn">
@@ -91,80 +85,18 @@
             </div>
             <div>
                 <p class="c_fff fz_13 m_50">
-                    프로필 사진은, 가입기준 확인과 매칭을 위해서만<br>
-                    사용되며, 절대로 외부에 공개되지 않습니다.
+                    인증용 사진은, 가입기준 확인을 위해서만<br>
+                    사용되며 절대로 타인에게 공개되지 않습니다.
+                    <br><br>
+                    확인 후 자료는 안전하게 폐기됩니다.
                 </p>
             </div>
             <div class="btn_next_box photo">
                 <button class="btn_next" id="btn_next" type="button"
-                    onclick="location.href='/juseonwang_prj/pages/recommend.html'">다음</button>
+                    onclick="location.href='/juseonwang_prj/pages/safe_call.html'">확인</button>
             </div>
         </div>
     </div>
-    <script>
-
-
-function readMultipleImage(input) {
-
-const multipleContainer = document.getElementById("multiple-container")
-
-// 인풋 태그에 파일들이 있는 경우
-if(input.files) {
-    // 이미지 파일 검사 (생략)
-
-    console.log(input.files)
-
-    // 유사배열을 배열로 변환 (forEach문으로 처리하기 위해)
-    const fileArr = Array.from(input.files)
-
-    const $colDiv1 = document.createElement("div")
-    const $colDiv2 = document.createElement("div")
-    $colDiv1.classList.add("column")
-    $colDiv2.classList.add("column")
-
-    fileArr.forEach((file, index) => {
-        const reader = new FileReader()
-
-        const $imgDiv = document.createElement("div")   
-        const $img = document.createElement("img")
-        $img.classList.add("image")
-
-        const $label = document.createElement("label")
-        $label.classList.add("image-label")
-        $label.textContent = file.name
-
-        $imgDiv.appendChild($img)
-        $imgDiv.appendChild($label)
-
-        reader.onload = e => {
-            $img.src = e.target.result
-            
-            $imgDiv.style.width = ($img.naturalWidth) * 1 + "px"
-            $imgDiv.style.height = ($img.naturalHeight) * 1 + "px"
-        }
-        
-        console.log(file.name)
-        if(index % 2 == 0) {
-            $colDiv1.appendChild($imgDiv)
-        } else {
-            $colDiv2.appendChild($imgDiv)
-        }
-        
-        reader.readAsDataURL(file)
-    })
-
-    multipleContainer.appendChild($colDiv1)
-    multipleContainer.appendChild($colDiv2)
-
-}
-}
-
-const inputMultipleImage = document.getElementById("input-multiple-image")
-inputMultipleImage.addEventListener("change", e => {
-readMultipleImage(e.target)
-})
-    </script>
-
 </body>
 
 </html>
